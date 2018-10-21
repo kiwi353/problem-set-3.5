@@ -1,18 +1,42 @@
-body{
+* {
     background-color: skyblue;
-    Margin: 40px;
+    z-index: 1;
+}
+
+body {
+    position: relative;
+    Margin-top: 20px;
     text-align: center;
 }
 
-table{
-    margin-left: 350px;
+div {
+    width: auto;
 }
 
-li{
+li {
     text-align: left;
-    margin-left: 450px;
+    margin-left: 38%;
 }
 
-. {
-    
+.header {
+    text-align: center;
+    clear: right;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    z-index: 2;
+}
+
+.centerElement{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a[href="mailto:info@example.com"] {
+    font-style: italic;
+}
+
+
+a[href="mailto:[redacted]"] {
+    font-style: italic;
 }
