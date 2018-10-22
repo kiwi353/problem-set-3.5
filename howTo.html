@@ -2,20 +2,22 @@
 
 <html>
   <head>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="./style/style.css" type="text/css" rel="stylesheet">
     <title>How to Play</title>
   </head>
   <body>
-    <div class="header" class="centerElement">
-        <a href="./index.html">Home</a> |
-        <a href="./events.html">Events Calendar</a> |
-        <a href="./howTo.html">How to Play</a> |
-        <a href="./relay.html">Relay For Life</a>
-      </div>
-      <div>
-        <img src="./images/Magic-the-gathering-logo.png" height="148px" width="512px"/>
-        <h1>How to Play</h1>
-      </div>
+    <div class="header navyHighlight" >
+      <p>
+      <a href="./index.html">Home</a> |
+      <a href="./events.html">Events Calendar</a> |
+      <a href="./howTo.html">How to Play</a> |
+      <a href="./relay.html">Relay For Life</a>
+      </p>
+    </div>
+    <div>
+      <img src="./images/Magic-the-gathering-logo.png"/>
+      <h1>How to Play</h1>
+    </div>
     <div class="content">
       <p>Interested in Joining but you don't know how to play? No problem!</p>
       <br/>
@@ -29,6 +31,73 @@
       <p>Another option is to learn magic through their new game Magic Arena <br/>
       It recently entered the open beta so it is free for anyone to use and<br/>
       comes with a built in explanation of the rules. (<a href="https://magic.wizards.com/en/mtgarena">download</a>)</p>
+    </div>
+    <div width="400px" style="float: left;" style="position: relative;">
+      <h3>An explanation of turn order</h3>
+      <p>
+        Each turn is constructed of five phases, and each phase consists of discrete steps that happen regardless of whether or not you do something during them. Phases also signal the length of time you can float mana before you take mana burn. (You can float mana from step to step through a phase, but if the phase ends and you still have mana in your pool, you burn for whatever amount of mana you have not used.)
+        <br/><br/>
+        The five phases look like this.
+        <br/><br/>
+        1) Beginning Phase <br/>
+        2) First Main Phase <br/>
+        3) Combat Phase <br/>
+        4) Second Main Phase <br/>
+        5) End Phase <br/>
+        <br/>
+        1) Beginning Phase
+        <br/><br/>
+        This phase consists of three steps: Untap, Upkeep, and Draw.
+        <br/><br/>
+        a. Untap Step - During your untap step, you untap all your tapped permanents. You are not allowed to do anything else during this step.
+        <br/><br/>
+        b. Upkeep Step - This happens directly after untap and is the first time players may take action during a turn. Abilities that trigger at the beginning of upkeep go on the stack, and then players can play instants and abilities.
+        <br/><br/>
+        c. Draw step: 
+        The first thing you do during your draw step is draw a card. Once that is done, both players may play spells and abilities.
+        <br/><br/>
+        2) First Main Phase
+        <br/><br/>
+        Assuming it is your turn, you can play any type of spell or ability during this phase. By contrast, since it's your turn, opponents can only play instants or abilities at this time (not creatures, sorceries, etc). Main phases are also the only time that you can play lands.
+        <br/><br/>
+        3) Combat Phase
+        <br/><br/>
+        The combat phase is comprised of five steps.
+        <br/><br/>
+        a. Declare Attackers
+        The player whose turn it is decides which creatures are attacking. Once all attackers are declared, both players get a chance to play instants and abilities.
+        <br/><br/>
+        b. Declare Blockers Step
+        The player getting attacked decides which untapped creatures of his own will be declared as blockers. Creatures may only block a single attacking creature at a time, but multiple creatures can be assigned to block the same attacking creature. (Using multiple creatures to block an attacking creature is often referred to as "gang blocking".)
+        <br/><br/>
+        After blockers are declared, both players again get the chance to play instants and abilities.
+        <br/><br/>
+        c. Combat Damage Step
+        This is when creatures deal damage in combat. You do get a change to cast instant speed effects before damge but keep in mind damage no longer uses the stack
+        <br/><br/>
+        d. End of Combat Step
+        Combat ends. You can cast spells if you want.
+        <br/><br/>
+        4) Second Main Phase
+        <br/><br/>
+        This is just like the first main phase, except post-combat. You can play the exact same things here that you could play during the first main phase, including playing a land, provided you did not play a land during your first main phase. (Remember, you only get to play one land a turn unless some card says otherwise.)
+        <br/><br/>
+        Strategically, this is when you should probably cast most of your creatures, sorceries, and enchantments. It's the last chance you will have to do so before you have to pass the turn to your opponent.
+        <br/><br/>
+        5) End Phase
+        <br/><br/>
+        There are two things you will want to pay particular attention to regarding the wording of cards that reference "end of turn". They both refer to things that happen during the End Phase, but one happens during the end step and the other occurs during cleanup.
+        <br/><br/>
+        a. End of turn step
+        Players can play instants and abilities during this phase.
+        <br/><br/>
+        b. Cleanup step
+        If you have more than seven cards in your hand and it is your turn, choose and discard cards until you have only seven. Next, all damage from creatures is removed and all "until end of turn" effects end.
+        <br/><br/>
+        These actions take place in that order because if they didn't, that Grizzly Bears we cast Giant Growth on to save from Shock would die, and nobody wants that. Since damage is removed first and then "until end of turn" effects disappear, the Bears are 5/5 when the damage is removed, and then revert back to 2/2s with no damage on them. To reiterate, cards that say "until end of turn" (like Giant Growth) go away during the cleanup step.
+        <br/><br/>
+        Additionally, no one can play spells or abilities during this step (for the most part).
+      </p>
     </div>
     <footer>© 2018  AIT | APSCS  <a href="mailto:info@example.com">info@example.com</a></footer>
   </body>

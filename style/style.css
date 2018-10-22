@@ -18,9 +18,16 @@ li {
     margin-left: 38%;
 }
 
+a:hover {
+    background-color: white;
+}
+
 .header {
-    text-align: center;
-    clear: right;
+    border-radius: 11%;
+    border: 3px solid blue;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-style: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
@@ -32,6 +39,19 @@ li {
     margin-right: auto;
 }
 
+.navyHighlight {
+    background-color: blue;
+}
+
+#eventTable {
+    border: 3px solid black;
+}
+
+#relayLogo {
+    height: 148px;
+    width: 257px;
+}
+
 a[href="mailto:info@example.com"] {
     font-style: italic;
 }
@@ -39,4 +59,9 @@ a[href="mailto:info@example.com"] {
 
 a[href="mailto:[redacted]"] {
     font-style: italic;
+}
+
+img[scr="./images/Magic-the-gathering-logo.png"]{
+    height: 148px;
+    width: 512px
 }
